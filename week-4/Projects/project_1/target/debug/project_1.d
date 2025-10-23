@@ -1,0 +1,1 @@
+C:\Users\Morga\OneDrive\Desktop\Academics\Pan\ Atlantic\ University\COS\ 1O1\m.atoeCOS101\week-4\Projects\project_1\target\debug\project_1.exe: C:\Users\Morga\OneDrive\Desktop\Academics\Pan\ Atlantic\ University\COS\ 1O1\m.atoeCOS101\week-4\Projects\project_1\src\main.rs
