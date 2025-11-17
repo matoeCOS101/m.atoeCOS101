@@ -5,7 +5,7 @@ use std::io;
 
 fn main() {
    println!("==Employee Annual Incentive Calculator==");
-
+  
 //Experience 
 println!("Are you an experienced employee? (yes/no): ");
 let mut experience_input = String::new();
