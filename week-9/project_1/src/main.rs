@@ -1,5 +1,6 @@
 use std::fs::File;
 use std::io::Write;
+use std::io::Read;
 
 fn main() -> std::io::Result<()> {
     let categories = vec![
@@ -21,6 +22,11 @@ fn main() -> std::io::Result<()> {
 
         file.write_all(b"\n")?; // blank line
     }
+
+ let mut file = std::fs::File::open("drinks.txt").unwrap();
+ let mut contents = String::new();
+ file.read_to_string(&mut contents).unwrap();
+ print!("{}", contents);
 
     println!("File created successfully.");
     Ok(())
