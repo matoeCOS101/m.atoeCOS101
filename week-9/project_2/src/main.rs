@@ -22,7 +22,7 @@ impl Student {
     }
 }
 
-fn main() -> Result<(), Box<dyn Error>> {
+fn main()  {
     let students = vec![
         Student {
             name: "Oluchi Mordi".to_string(),
